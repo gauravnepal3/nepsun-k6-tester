@@ -1,7 +1,7 @@
 k6 run rtb-load-test.js \
   -e BASE_URL=http://rtb.us.adstork.com \
-  -e SSP_API_KEY=2fec0ab1bfbed9ba01d97037a791989f \
-  -e TARGET_QPS=5000 \
+  -e SSP_API_KEY=67d6ee061a877879e1ea0bc15f46e215 \
+  -e TARGET_QPS=500 \
   -e PRE_ALLOCATED_VUS=500 \
   -e MAX_VUS=4000 \
   -e DURATION=120s
